@@ -6,7 +6,7 @@ export default function App() {
         token: "123321123321",
         name: "User teste"
     }
-    if (userData) {
+    if (!userData) {
         return <Redirect href={"/(private)/home"} />
     }
 
